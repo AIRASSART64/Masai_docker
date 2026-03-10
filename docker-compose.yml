@@ -34,7 +34,7 @@ services:
     container_name: marsai-maildev
     ports:
       - "1080:1080"
-      - "2025:1025"
+      - "1025:1025"
 
   backend:
     build: ./backend
